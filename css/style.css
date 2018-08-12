@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#message-Text {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    background-color: lightgreen;
+    display: none;
+}
+
+.error {
+    color: rgb(253, 78, 78);
+    font-size: 16px;
+}
+
+.half{
+    display: inline-table;
+    width: 47%;
+    float: left;
+    margin: 1%;
+}
+
+table.table-stripped {
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+    text-transform: capitalize;
+}
+
+.table-stripped th, td {
+    padding: 5px;
+}
+
+.table-stripped tbody tr:hover td{
+    background-color: rgb(231, 230, 230);
+}
+
+.table-stripped thead tr{
+    background-color: antiquewhite;
+}
+.table-stripped tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+.table-stripped tbody tr:nth-child(even){
+    background-color: rgb(255, 248, 240);
+}
+
+/* styling for button */
+.button {
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 3px;
+    border-width: 0px;
+    margin: 2px;
+    background-color: rgb(241, 185, 116);
+    color: black;
+}
+
+.button:disabled {
+    background-color: darkgray;
+    color: rgb(247, 239, 229);
+}
+
+.button:disabled:hover {
+    box-shadow: none;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 5px 2px rgb(199, 199, 199);
+    background-color: darkgray;
+    color: rgb(247, 239, 229);
+}
+
+/* Styling for form */
+form {
+    padding: 10px;
+    font-size: 1.5em;
+}
+.input {
+    width: 100%;
+    height: 1.5em;
+    font-size: 1em;
+    border: none;
+    border-bottom:1px solid #ccc;
+    background-color: rgb(252, 245, 237);
+    text-transform: capitalize;
+}
+
+.border {
+    border: 2px solid #947c11;
+}
